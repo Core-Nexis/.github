@@ -1,29 +1,30 @@
 <div align="center">
 
-<h1>
-<img src="https://corenexis.com/assets/logo/logo.png" width="30" alt="">&nbsp;&nbsp;Corenexis
-</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Core-Nexis/.github/main/profile/assets/corenexis-wordmark-dark.png">
+  <img src="https://raw.githubusercontent.com/Core-Nexis/.github/main/profile/assets/corenexis-wordmark-light.png" alt="Corenexis" width="300">
+</picture>
 
-**Developer APIs, OAuth 2.0 sign-in, and secure apps.**
+<h3>Developer APIs, secure sign-in, and the Cashly money app.</h3>
 
-Production infrastructure you can wire up in an afternoon — nine REST APIs, a full identity platform, and a zero-knowledge vault. Free tiers on everything.
-
-<br>
-
-[![Website](https://img.shields.io/badge/Website-000B36?style=for-the-badge)](https://corenexis.com)
-[![API Platform](https://img.shields.io/badge/API_Platform-FE5940?style=for-the-badge)](https://api.corenexis.com)
-[![Sign in with Corenexis](https://img.shields.io/badge/OAuth_2.0-000B36?style=for-the-badge)](https://corenexis.com/oauth)
-[![Secrets](https://img.shields.io/badge/Secrets-000B36?style=for-the-badge)](https://secrets.corenexis.com)
-[![Cashly](https://img.shields.io/badge/Cashly-000B36?style=for-the-badge)](https://cashly.corenexis.com)
-[![Blog](https://img.shields.io/badge/Blog-000B36?style=for-the-badge)](https://blog.corenexis.com)
+Production REST APIs on one key, OAuth 2.0 sign-in with two-factor built in, and a personal finance app
+that AI assistants can work with - each with an MCP server for agents.
 
 <br>
+
+[![Website](https://img.shields.io/badge/corenexis.com-000B36?style=for-the-badge)](https://corenexis.com)
+[![Corenexis API](https://img.shields.io/badge/Corenexis_API-FE5940?style=for-the-badge)](https://api.corenexis.com)
+[![Corenexis OAuth](https://img.shields.io/badge/Corenexis_OAuth-000B36?style=for-the-badge)](https://corenexis.com/oauth)
+[![Cashly](https://img.shields.io/badge/Cashly-FE5940?style=for-the-badge)](https://cashly.corenexis.com)
 
 ![REST](https://img.shields.io/badge/REST-JSON-5A6480?style=flat-square)
-![OAuth 2.0](https://img.shields.io/badge/OAuth_2.0-RS256_%2B_PKCE-5A6480?style=flat-square)
-![Encryption](https://img.shields.io/badge/AES--256--GCM-zero--knowledge-5A6480?style=flat-square)
-![MCP](https://img.shields.io/badge/MCP-agent_ready-5A6480?style=flat-square)
-![Free tier](https://img.shields.io/badge/free_tier-on_everything-15705A?style=flat-square)
+![OAuth 2.0](https://img.shields.io/badge/OAuth_2.0-PKCE_%2B_2FA-5A6480?style=flat-square)
+![MCP](https://img.shields.io/badge/MCP-Official_Registry-15705A?style=flat-square)
+![n8n](https://img.shields.io/badge/n8n-community_nodes-5A6480?style=flat-square)
+
+<br>
+
+<img src="https://raw.githubusercontent.com/Core-Nexis/.github/main/profile/assets/corenexis-banner.jpg" alt="Corenexis - APIs, sign-in and apps, built secure" width="820">
 
 </div>
 
@@ -33,70 +34,54 @@ Production infrastructure you can wire up in an afternoon — nine REST APIs, a 
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### ⚡ API Platform
+<img src="https://raw.githubusercontent.com/Core-Nexis/.github/main/profile/assets/corenexis-api-icon.png" width="56" height="56" alt="Corenexis API">
+
+### Corenexis API
 
 **[api.corenexis.com](https://api.corenexis.com)**
 
-Nine production REST APIs for documents, images and data quality. One key, one header, predictable JSON — and a permanently free tier on every single one.
+9+ production REST APIs for documents, images and data quality. One key, one header, predictable JSON,
+and a free tier on every API.
 
 `Markdown to PDF` `HTML to PDF` `OCR` `Email validation` `Image CDN` `QR & barcode`
 
-</td>
-<td width="50%" valign="top">
+MCP server: `com.corenexis/api`
 
-### 🔐 Sign in with Corenexis
+**[Docs and MCP guide →](https://github.com/Core-Nexis/corenexis-api)**
+
+</td>
+<td width="33%" valign="top">
+
+<img src="https://raw.githubusercontent.com/Core-Nexis/.github/main/profile/assets/corenexis-oauth-icon.png" width="56" height="56" alt="Corenexis OAuth">
+
+### Corenexis OAuth
 
 **[corenexis.com/oauth](https://corenexis.com/oauth)**
 
-One OAuth 2.0 integration gives your users Google, GitHub, Microsoft, magic-link and password sign-in — with TOTP two-factor, a consent screen and device management already built in.
+Secure sign-in for your app in one OAuth 2.0 integration: Google, GitHub, Microsoft, magic link and
+password, with TOTP two-factor, a consent screen and device management already built in.
 
-RS256 JWTs · JWKS · refresh rotation with reuse detection · PKCE · no SDK to install
+RS256 JWTs · JWKS · PKCE · refresh rotation with reuse detection · no SDK to install
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🛡️ Secrets
-
-**[secrets.corenexis.com](https://secrets.corenexis.com)**
-
-A zero-knowledge vault for passwords, cards, identities, TOTP codes, API keys and encrypted files. Keys are derived on your device with PBKDF2-SHA256 at 600,000 rounds; the server only ever stores ciphertext.
-
-Eight offline recovery keys · cryptographic sharing · team vaults with per-member roles
+**[Integration guide →](https://corenexis.com/oauth)**
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### 💰 Cashly
+<img src="https://raw.githubusercontent.com/Core-Nexis/.github/main/profile/assets/cashly-icon.png" width="56" height="56" alt="Cashly">
+
+### Cashly
 
 **[cashly.corenexis.com](https://cashly.corenexis.com)**
 
-A personal finance app for transactions, EMIs, debts, subscriptions and cards — with timezone-aware reminders so nothing slips.
+A free expense, EMI and debt tracker for Android and web, in any currency, with no bank login. Manage
+it by chat: a REST API, webhooks and an MCP server let ChatGPT, Claude or n8n read and log entries.
 
-Ships with a REST API **and an MCP server**, so Claude, n8n or your own agent can read and write entries with a key you issue and revoke.
+MCP server: `com.corenexis/cashly`
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧰 Free Tools
-
-**[tools.corenexis.com](https://tools.corenexis.com)**
-
-25+ browser utilities with no signup — security headers checker, DNS record lookup, IP tools, encryption helpers and image utilities.
-
-</td>
-<td width="50%" valign="top">
-
-### 🤖 AI Automation & Development
-
-**[Get a quote](https://corenexis.com/project-quote)**
-
-Custom AI agents and workflow automation with n8n, Make.com and Zapier — plus web development and integration work.
+**[API and MCP guide →](https://github.com/Core-Nexis/cashly)**
 
 </td>
 </tr>
@@ -104,49 +89,53 @@ Custom AI agents and workflow automation with n8n, Make.com and Zapier — plus 
 
 <br>
 
-## The API catalogue
+## For developers and AI agents
 
-<details>
-<summary><b>All nine APIs — click to expand</b></summary>
+| | Repository | What is inside |
+|---|---|---|
+| Corenexis API | [`Core-Nexis/corenexis-api`](https://github.com/Core-Nexis/corenexis-api) | REST reference, MCP setup for every client, examples |
+| Cashly | [`Core-Nexis/cashly`](https://github.com/Core-Nexis/cashly) | MCP server, REST API, webhooks, examples |
+| n8n | [`n8n-nodes-cashly`](https://github.com/Core-Nexis/n8n-nodes-cashly) · [`n8n-nodes-corenexis-api`](https://github.com/Core-Nexis/n8n-nodes-corenexis-api) | Community nodes for n8n workflows |
 
-<br>
-
-| API | What it does | Docs |
-| :-- | :-- | :-- |
-| **Markdown to PDF** | Print-ready PDF or page images. Tables, task lists, syntax-highlighted code, 13 typefaces, full control over page size and margins. Handles 1,000+ page documents. | [Docs](https://api.corenexis.com/markdown-to-pdf/docs/) |
-| **HTML to PDF** | Renders HTML and CSS exactly as a browser does — grid, flexbox, gradients, web fonts, optional JavaScript execution. | [Docs](https://api.corenexis.com/html-to-pdf/docs/) |
-| **Image to Text (OCR)** | Photos, screenshots, scans, bills and signage into clean text and markdown. Auto language detection across 30+ languages. | [Docs](https://api.corenexis.com/image-ocr/docs/) |
-| **PDF to Text (OCR)** | Scanned PDFs, tables and complex layouts, with page selection and high accuracy across 30+ languages. | [Docs](https://api.corenexis.com/pdf-to-text/docs/) |
-| **Email Validator** | Real-time SMTP and catch-all verification, deliverability checks, MX / SPF / DMARC validation, confidence scoring. | [Docs](https://api.corenexis.com/email-validator/docs/) |
-| **Disposable Email Detector** | Blocks temporary and fake addresses in real time against a 146,000+ domain database. | [Docs](https://api.corenexis.com/disposable-email-validator/docs/) |
-| **Image CDN** | Upload by file or URL, flexible retention, global delivery, hosted viewer and social sharing. | [Docs](https://api.corenexis.com/image-cdn/docs/) |
-| **Image Conversion** | Any format to any format across 25+ formats — WebP, AVIF, HEIC, JPEG XL. Animations preserved. | [Docs](https://api.corenexis.com/image-conversion/docs/) |
-| **QR Code & Barcode** | Standard QR, UPI payment QRs, and Code128 / EAN-13 / UPC-A barcodes with logo embedding. | [Docs](https://api.corenexis.com/qr-barcode/docs/) |
-
-</details>
+Both MCP servers are listed on the [Official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=com.corenexis)
+and run remotely over Streamable HTTP - nothing to install.
 
 <br>
 
 ## Quick start
 
-**Call any API** — one header, that's the whole authentication story.
+**Call any API** - one header is the whole authentication story.
 
 ```bash
 curl -X POST https://api.corenexis.com/email-validator/v1 \
-  -H "X-API-Key: YOUR_API_KEY" \
+  -H "x-api-key: YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"email": "hello@corenexis.com"}'
 ```
 
-**Add sign-in to your app** — standard OAuth 2.0 authorization code, no SDK required.
+**Give an AI assistant the APIs** - add the MCP server to Claude, Cursor, VS Code or any MCP client.
+
+```json
+{
+  "mcpServers": {
+    "corenexis": {
+      "type": "http",
+      "url": "https://api.corenexis.com/mcp/server",
+      "headers": { "x-api-key": "YOUR_API_KEY" }
+    }
+  }
+}
+```
+
+**Add secure sign-in to your app** - standard OAuth 2.0 authorization code, no SDK required.
 
 ```js
-// 1 — send the user to Corenexis
+// 1 - send the user to Corenexis
 res.redirect('https://accounts.corenexis.com/'
   + '?redirect=' + encodeURIComponent(CALLBACK)
   + '&state=' + state);
 
-// 2 — they return with ?code=… ; exchange it server-side
+// 2 - they come back with ?code=... ; exchange it on your server
 const tok = await (await fetch(BASE + '/api/token', {
   method: 'POST',
   body: new URLSearchParams({
@@ -157,7 +146,7 @@ const tok = await (await fetch(BASE + '/api/token', {
   }),
 })).json();
 
-// 3 — a verified user, and your app never saw a password
+// 3 - a verified user, and your app never saw a password
 req.session.userId = tok.user.id;
 ```
 
@@ -174,9 +163,13 @@ req.session.userId = tok.user.id;
 
 <div align="center">
 
+<sub>Also from Corenexis: <a href="https://secrets.corenexis.com">Corenexis Secrets</a> (zero-knowledge password vault) and <a href="https://corenexis.com/project-quote">AI automation and development</a> for businesses.</sub>
+
+<br><br>
+
 <sub>
 
-[Documentation](https://api.corenexis.com) · [Support](https://helpdesk.corenexis.com) · [Privacy](https://corenexis.com/privacy) · [Terms](https://corenexis.com/terms-of-service) · **contact@corenexis.com**
+[Website](https://corenexis.com) · [Support](https://helpdesk.corenexis.com) · [Blog](https://blog.corenexis.com) · [Privacy](https://corenexis.com/privacy) · [Terms](https://corenexis.com/terms-of-service) · **contact@corenexis.com**
 
 </sub>
 
@@ -186,5 +179,6 @@ req.session.userId = tok.user.id;
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/corenexis)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/corenexis)
 [![Medium](https://img.shields.io/badge/Medium-000000?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@corenexis)
+[![Crunchbase](https://img.shields.io/badge/Crunchbase-0288D1?style=flat-square)](https://www.crunchbase.com/organization/corenexis)
 
 </div>
